@@ -1,4 +1,4 @@
-package customer;
+package models.customer;
 
 import java.util.UUID;
 

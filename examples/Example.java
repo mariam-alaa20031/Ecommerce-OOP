@@ -1,8 +1,8 @@
 package examples;
 
-import cart.Cart;
-import cart.CartItem;
-import customer.Customer;
+import models.cart.Cart;
+import models.cart.CartItem;
+import models.customer.Customer;
 
 import java.time.LocalDate;
 

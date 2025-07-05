@@ -1,7 +1,7 @@
 package examples;
 
 import interfaces.Shippable;
-import product.Product;
+import models.product.Product;
 
 public class TV extends Product implements Shippable {
     private double weight;

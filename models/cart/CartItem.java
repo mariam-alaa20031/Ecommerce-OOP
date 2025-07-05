@@ -1,5 +1,5 @@
-package cart;
-import product.Product;
+package models.cart;
+import models.product.Product;
 
 public class CartItem  {
     private Product product;

@@ -2,7 +2,7 @@ package examples;
 
 import interfaces.Expirable;
 import interfaces.Shippable;
-import product.Product;
+import models.product.Product;
 
 import java.time.LocalDate;
 

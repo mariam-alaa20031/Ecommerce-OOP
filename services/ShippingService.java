@@ -1,5 +1,5 @@
 package services;
-import cart.CartItem;
+import models.cart.CartItem;
 import interfaces.Shippable;
 import java.util.ArrayList;
 

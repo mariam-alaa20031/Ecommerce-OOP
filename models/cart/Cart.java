@@ -1,9 +1,9 @@
-package cart;
+package models.cart;
 
-import customer.Customer;
+import models.customer.Customer;
 import interfaces.Expirable;
 import interfaces.Shippable;
-import product.Product;
+import models.product.Product;
 import services.ShippingService;
 
 import java.time.LocalDate;
@@ -38,7 +38,7 @@ public class Cart {
         if ( item.getProduct() == null) {
             return;
         }
-        // Check for existing item with the same product
+        // Check for existing item with the same models.product
         for (CartItem i : items) {
             Product product = i.getProduct();
             if ( product.equals(item.getProduct())) {
@@ -58,7 +58,7 @@ public class Cart {
             System.out.println("Error: Customer cannot be null!");
             return false;
         } else if (this.items.isEmpty()) {
-            System.out.println("Error: Cannot checkout an empty cart!");
+            System.out.println("Error: Cannot checkout an empty models.cart!");
             return false;
         }
         else return true;
