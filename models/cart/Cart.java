@@ -82,7 +82,7 @@ public class Cart {
         double shippingFee=shippableItems.getShippableItemFee();
         double finalAmount = subTotal+ shippingFee;
         if(validateBalance(customer,finalAmount)){
-        System.out.print(shippableItems.printShippingInfo());
+        System.out.println(shippableItems.printShippingInfo());
         printReceipt(this.items,subTotal,shippingFee);
     }
     }
